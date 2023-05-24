@@ -1,39 +1,81 @@
 .projects {
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
+    //background-color: #EBDEF0;
 
     &__title {
-        
+        font-family: "Georama", sans-serif;
+        font-size: 45px;
+        font-weight: 700;
+        margin-top: 30px;
+        //text-shadow: rgb(136, 133, 133) 0.1em 0.1em 0.2em
+    }
+
+    &__all {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+
+        &-one {
+            margin-bottom: 50px;
+            width: 70vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            &--img {
+                width: 70vw;
+                border: solid 2px black;
+            }
+
+            &--div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+            }
+
+            /*&--div {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                transition: 1.5s ease;
+                background-color: #c3ac76;
+            }*/
+
+        }
     }
 }
 
-.projects__all-one {
-    position: relative;
-
-    &--img {
-        display: block;
-        width: 100px;
-        height: auto;
-    }
-
-    &--div {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 0;
-        transition: 1.5s ease;
-        background-color: #c3ac76;
-    }
+.title {
+    font-family: "Georama", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-.tittle {
+.text {
+    font-family: "Georama", sans-serif;
+    font-size: 25px;
+    text-align: center;
+  
+}
+
+
+/*.title {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -47,4 +89,4 @@
 
 .projects__all-one:hover .projects__all-one--div {
     opacity: 1;
-}
+}*/

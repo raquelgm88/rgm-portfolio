@@ -1,6 +1,12 @@
 @import 'core/reset';
 @import 'layout/header';
 @import 'layout/hero';
-// @import 'layout/projects';
+@import 'layout/projects';
+@import 'layout/technologies';
+@import 'layout/contact';
 @import 'layout/footer';
 @import 'pages/index';
+
+.main {
+    width: 100vw;
+}

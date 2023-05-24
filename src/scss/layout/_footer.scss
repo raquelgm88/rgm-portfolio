@@ -1,2 +1,18 @@
 .footer {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    &__div {
+        margin-left: 30px;
+        font-family: "Georama", sans-serif;;
+    }
+
+    &__copy {
+        margin-right: 30px;
+        font-family: "Georama", sans-serif;
+    }
 }
