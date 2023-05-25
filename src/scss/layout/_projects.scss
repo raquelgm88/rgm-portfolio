@@ -4,14 +4,14 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
-    //background-color: #EBDEF0;
+    background-color: #f0f3f4;
 
     &__title {
         font-family: "Georama", sans-serif;
         font-size: 45px;
         font-weight: 700;
         margin-top: 30px;
-        //text-shadow: rgb(136, 133, 133) 0.1em 0.1em 0.2em
+        color: #9a3a92;
     }
 
     &__all {
@@ -61,7 +61,7 @@
 
 .title {
     font-family: "Georama", sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
@@ -69,7 +69,7 @@
 
 .text {
     font-family: "Georama", sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
   
 }
