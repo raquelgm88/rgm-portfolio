@@ -5,7 +5,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color:  #9a3a92 ;
+    background-color:  #9a3a92;
+
+    @media all and (min-width: 768px) {
+        font-size: 20px;
+    }
     
     &__div {
         margin-left: 30px;

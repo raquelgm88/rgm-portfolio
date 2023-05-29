@@ -6,6 +6,11 @@
     width: 100vw;
     background-color: #f0f3f4;
 
+    @media all and (min-width: 768px) {
+        height: 100vh;
+        justify-content: flex-start;
+    }
+
     &__h1 {
         font-family: "Georama", sans-serif;
         font-size: 45px;
@@ -15,6 +20,23 @@
         margin-bottom: 50px;
         width: 75vw;
         color: #9a3a92;
+
+        @media all and (min-width: 768px) {
+           margin-top: 155px;
+           font-size: 60px;
+        }
+    }
+
+    &__text {
+        display: none;
+
+        @media all and (min-width: 768px) {
+            display: flex;
+            font-family: "Georama", sans-serif;
+            font-size: 30px;
+            text-align: center;
+            width: 88vw;
+         }
     }
 
     &__div {
@@ -22,14 +44,44 @@
         flex-direction: row;
         gap: 40px;
         margin-bottom: 40px;
+
+        @media all and (min-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 155px;
+            gap: 100px;
+         }
       
 
         &_link {
             text-decoration: none;
-        
-            &--logo {
-                height: 40px;
-            }
         }
+    }
+}
+
+.fa-linkedin {
+    font-size: 40px;
+    color: #0a66c2;
+
+    @media all and (min-width: 768px) {
+        font-size: 120px;
+    }
+}
+
+.fa-github {
+    font-size: 40px;
+    color: black;
+
+    @media all and (min-width: 768px) {
+        font-size: 120px;
+    }
+}
+
+.fa-envelope {
+    font-size: 40px;
+    color: #ed9775;
+
+    @media all and (min-width: 768px) {
+        font-size: 120px;
     }
 }
