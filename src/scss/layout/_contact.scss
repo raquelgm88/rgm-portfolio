@@ -25,6 +25,10 @@
            margin-top: 155px;
            font-size: 60px;
         }
+
+        @media all and (min-width: 1200px) {
+            font-size: 70px;
+        }
     }
 
     &__text {
@@ -36,7 +40,12 @@
             font-size: 30px;
             text-align: center;
             width: 88vw;
-         }
+        }
+
+        @media all and (min-width: 1200px) {
+            margin-top: 30px;
+           justify-content: center;
+        }
     }
 
     &__div {
@@ -50,7 +59,13 @@
             align-items: center;
             margin-top: 155px;
             gap: 100px;
-         }
+        }
+
+        @media all and (min-width: 1200px) {
+            flex-direction: row;
+            gap: 200px;
+            margin-top: 200px;
+        }
       
 
         &_link {
