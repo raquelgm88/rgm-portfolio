@@ -43,12 +43,14 @@
 
         @media all and (min-width: 1200px) {
             display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+            width: 85vw;
             height: 100vh;
             margin-top: 150px;
             overflow-x: scroll;
+        
         }
 
         &-one {
@@ -65,7 +67,9 @@
 
             @media all and (min-width: 1200px) {
                 flex: 0 0 33%;
+                justify-content: center;
                 width: 100%;
+                height: auto;
                 object-fit: cover;
             }
 
@@ -76,6 +80,7 @@
                 @media all and (min-width: 1200px) {
                     width: 300px;
                 }
+
             }
 
             &--div {
@@ -86,7 +91,7 @@
                 margin-top: 20px;
 
                 @media all and (min-width: 1200px) {
-                    width: 75%;
+                    width: 70%;
                 }
             }
 
@@ -117,6 +122,10 @@
     @media all and (min-width: 768px) {
         font-size: 40px;
     }
+
+    @media all and (min-width: 1200px) {
+        font-size: 35px;
+    }
 }
 
 .text {
@@ -127,6 +136,28 @@
     @media all and (min-width: 768px) {
         font-size: 30px;
     }
+
+    @media all and (min-width: 1200px) {
+        font-size: 25px;
+    }
+}
+
+.fa-circle-chevron-left {
+    font-size: 40px;
+    align-self: flex-start;
+    margin-left: 60px;
+    translate: 0 300px;
+}
+
+.fa-circle-chevron-right {
+    font-size: 40px;
+    align-self: flex-end;
+    margin-right: 60px;
+    translate: 0 -380px;
+}
+
+.projects__all::-webkit-scrollbar {
+    display: none;
 }
 
 
