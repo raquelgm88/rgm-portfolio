@@ -144,20 +144,34 @@
 
 .fa-circle-chevron-left {
     font-size: 40px;
-    align-self: flex-start;
-    margin-left: 60px;
-    translate: 0 300px;
+   // align-self: flex-start;
+    //margin-left: 60px;
+    //translate: 0 300px;
 }
 
 .fa-circle-chevron-right {
     font-size: 40px;
-    align-self: flex-end;
-    margin-right: 60px;
-    translate: 0 -380px;
+    //align-self: flex-end;
+    //margin-right: 60px;
+    //translate: 0 -380px;
 }
 
 .projects__all::-webkit-scrollbar {
     display: none;
+}
+
+.left_button {
+    align-self: flex-start;
+    margin-left: 60px;
+    translate: 0 300px;
+    border: none;
+}
+
+.right_button {
+    align-self: flex-end;
+    margin-right: 60px;
+    translate: 0 -380px;
+    border: none;
 }
 
 

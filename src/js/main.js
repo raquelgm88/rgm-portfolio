@@ -2,12 +2,18 @@
 
 console.log('>> Ready :)');
 
-const leftBtn = document.querySelector('.fa-circle-chevron-left');
-const rightBtn = document.querySelector('.fa-circle-chevron-right');
-const content = document.querySelector('.projects__all');
+const leftBtn = document.querySelector('.js_left_button');
+const rightBtn = document.querySelector('.js_right_button');
+const content = document.querySelector('.js_projects');
 
-const handleClickLeft = () => {
-    content.scrollRight +=800;
+function handleClickLeft() {
+  content.scrollLeft -= 538;
+  console.log('Holi');
+}
+
+function handleClickRight() {
+  content.scrollLeft += 538;
+  console.log('Adios');
 }
 
 leftBtn.addEventListener('click', handleClickLeft);
