@@ -7,17 +7,15 @@
     height: 100vh;
     background-image: url("../../assets/images/up.png");
     //background-image: url("../../assets/images/keyboard.jpg");
-    background-position: center;
+    background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
-    @media all and (min-width: 768px) {
-        background-position: left
-    }
 
     @media all and (min-width: 1200px) {
-        
+        align-items: flex-start;
+        background-position: center;
     }
     
 
@@ -27,35 +25,52 @@
         justify-content: center;
         align-items: center;
         width: 70%;
+        height: 100%;
         font-family: "Georama", sans-serif;
-        margin-top: 80px;
+        //font-family: "Jost", sans-serif;
+        //margin-top: 80px;
         //background-color: rgba(255, 255, 255, 0.5);
         //box-shadow: 0px 0px 5px 1px rgb(42, 41, 41);
 
-        @media all and (min-width: 768px) {
-            margin-top: 300px;
-        }
-
-        /*@media all and (min-width: 1200px) {
-            margin-top: auto;
-            width: 70%;
-            transform: scale(70%);
+        @media all and (min-width: 1200px) {
+            align-items: flex-start;
+            justify-content: flex-start;
+            margin-top: 150px;
+            margin-left: 150px;
+            //width: 100%;
+            //transform: scale(70%);
             text-align: left;
-        }*/
+        }
 
         &-title {
             font-size: 50px;
             font-weight: 700;
-            //color: #fff;
-            //color: #000000;
+            color: #fff;
            // text-shadow: 3px 3px 20px #000000,
            // -2px 1px 30px #000000;
-           text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+            text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
             0px -4px 10px rgba(255,255,255,0.3);
+            opacity: 0;
+            animation-duration: 4s;
+            animation-name: fadeIn;
+            animation-fill-mode: forwards;
+            @keyframes fadeIn {
+                from {
+                  opacity: 0;
+                }
+                to {
+                  opacity: 1;
+                }
+              }
 
             @media all and (min-width: 768px) {
                 font-size: 80px;
             }
+
+            @media all and (min-width: 1200px) {
+               width: 40%;
+            }
+    
         }
 
         &-subtitle {
@@ -63,10 +78,27 @@
             margin-top: 15px;
             text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
             0px -4px 10px rgba(255,255,255,0.3);
+            opacity: 0;
+            animation-duration: 4s;
+            animation-delay: 2s;
+            animation-name: fadeIn;
+            animation-fill-mode: forwards;
+             @keyframes fadeIn {
+                 from {
+                   opacity: 0;
+                 }
+                 to {
+                   opacity: 1;
+                 }
+               }
             
             @media all and (min-width: 768px) {
                 font-size: 60px;
                 margin-top: 30px;
+            }
+
+            @media all and (min-width: 1200px) {
+                width: 60%;
             }
         }
 
@@ -76,9 +108,27 @@
             margin-top: 45px;
             text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
             0px -4px 10px rgba(255,255,255,0.3);
+            opacity: 0;
+            animation-duration: 4s;
+            animation-delay: 4s;
+            animation-name: fadeIn;
+            animation-fill-mode: forwards;
+             @keyframes fadeIn {
+                 from {
+                   opacity: 0;
+                 }
+                 to {
+                   opacity: 1;
+                 }
+               }
 
             @media all and (min-width: 768px) {
                 font-size: 40px;
+            }
+
+            @media all and (min-width: 1200px) {
+                text-align: left;
+                width: 60%;
             }
         }
     }
@@ -92,10 +142,35 @@
         border: none;
         box-shadow: 0px 0px 5px 1px rgb(42, 41, 41);
         background-color: rgba(255, 255, 255, 0.7);
+        -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+        transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+        opacity: 0;
+        animation-duration: 1s;
+        animation-delay: 6s;
+        animation-name: fadeIn;
+        animation-fill-mode: forwards;
+         @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @media all and (min-width: 768px) {
+            margin-top: 100px;
+        }
 
         @media all and (min-width: 1200px) {
-            margin-top: 50px;
-            
+            margin-left: 300px;
+            margin-top: 120px;
         }
+    }
+    &__button:hover {
+        box-shadow: 0px 0px 5px 1px rgb(255, 255, 255);
+        background-color: black;
+        color: white;
+        cursor: pointer;
     }
 }
