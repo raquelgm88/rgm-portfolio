@@ -23,8 +23,8 @@
         }
 
         @media all and (min-width: 1200px) {
-            font-size: 70px;
-            margin-top: 100px;
+            font-size: 7.5vh;
+            margin-top: 18vh;
             
         }
     }
@@ -65,28 +65,39 @@
             }
     
             &-one {
-                margin-bottom: 50px;
-                width: 85vw;
+                margin-bottom: 30px;
+                width: 270px;
+                height: 380px;
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
+                justify-content: flex-start;
                 align-items: center;
+                border: solid black 2px;
     
                 @media all and (min-width: 768px) {
+                    width: 500px;
+                    height: 620px;
                     margin-bottom: 85px;
                 }
     
                 @media all and (min-width: 1200px) {
-                    flex: 0 0 33%;
+                    width: 340px;
+                    flex: 0 0 31%;
                     justify-content: center;
-                    width: 100%;
-                    height: auto;
+                    height: 400px;
                     object-fit: cover;
+                    margin: 0 20px 0 20px;
                 }
     
                 &--img {
-                    width: 70vw;
+                    width: 230px;
                     border: solid 2px black;
+                    margin-top: 20px;
+
+                    @media all and (min-width: 768px) {
+                        width: 450px;
+                        margin-top: 25px;
+                    }
     
                     @media all and (min-width: 1200px) {
                         width: 300px;
@@ -100,9 +111,16 @@
                     justify-content: center;
                     align-items: center;
                     margin-top: 20px;
+                    margin-bottom: 8%;
+                    width: 230px;
+
+                    @media all and (min-width: 768px) {
+                        width: 450px;
+                        margin-top: 30px;
+                    }
     
                     @media all and (min-width: 1200px) {
-                        width: 70%;
+                        width: 300px;
                     }
                 }
     

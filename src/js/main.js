@@ -8,6 +8,7 @@ const content = document.querySelector('.js_projects');
 
 function handleClickLeft() {
   content.scrollLeft -= 538;
+  
   console.log('Holi');
 }
 
