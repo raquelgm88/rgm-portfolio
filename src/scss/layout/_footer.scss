@@ -13,14 +13,25 @@
     }
     
     &__div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
         margin-left: 30px;
-        font-family: "Georama", sans-serif;
+        //font-family: "Georama", sans-serif;
+        font-family: "Oxanium", sans-serif;
+        font-family: "Poppins", sans-serif;
         color:  white;
+        width: auto;
+        height: auto;
+     
     }
 
     &__copy {
         margin-right: 30px;
-        font-family: "Georama", sans-serif;
+        //font-family: "Georama", sans-serif;
+        font-family: "Oxanium", sans-serif;
+        font-family: "Poppins", sans-serif;
         color:  white;
     }
 }
