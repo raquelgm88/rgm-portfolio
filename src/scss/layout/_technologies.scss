@@ -29,7 +29,7 @@
             margin-top: 120px;
         }
 
-        @media all and (min-width: 1200px) {
+        @media all and (min-width: 1024px) {
             font-size: 7.5vh;
             margin-top: 100px;
         }
@@ -50,7 +50,7 @@
             margin-bottom: 50px;
         }
 
-        @media all and (min-width: 1200px) {
+        @media all and (min-width: 1024px) {
             //font-size: 30px;
             font-size: 3.2vh;
             margin-top: 80px;
@@ -65,7 +65,7 @@
         row-gap: 30px;
         margin: 45px 15px 45px 15px;
 
-        @media all and (min-width: 1200px) {
+        @media all and (min-width: 1024px) {
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
             grid-template-rows: 1fr 1fr;
             row-gap: 90px;
@@ -112,7 +112,7 @@
                 height: 110px;
             }
 
-            @media all and (min-width: 1200px) {
+            @media all and (min-width: 1024px) {
                 grid-column: 4/5;
                 grid-row: 1/2;
                 height: 11.7vh;
@@ -130,7 +130,7 @@
                 height: 110px;
             }
 
-            @media all and (min-width: 1200px) {
+            @media all and (min-width: 1024px) {
                 grid-column: 5/6;
                 grid-row: 1/2;
                 height: 11.7vh;
@@ -148,7 +148,7 @@
                 height: 110px;
             }
 
-            @media all and (min-width: 1200px) {
+            @media all and (min-width: 1024px) {
                 grid-column: 6/7;
                 grid-row: 1/2;
                 height: 11.7vh;
@@ -166,7 +166,7 @@
                 height: 110px;
             }
 
-            @media all and (min-width: 1200px) {
+            @media all and (min-width: 1024px) {
                 grid-column: 2/3;
                 grid-row: 2/3;
                 height: 11.7vh;
@@ -184,7 +184,7 @@
                 height: 110px;
             }
 
-            @media all and (min-width: 1200px) {
+            @media all and (min-width: 1024px) {
                 grid-column: 3/4;
                 grid-row: 2/3;
                 height: 11.7vh;
@@ -202,7 +202,7 @@
                 height: 80px;
             }
 
-            @media all and (min-width: 1200px) {
+            @media all and (min-width: 1024px) {
                 grid-column: 4/5;
                 grid-row: 2/3;
                 height: 8.5vh;
@@ -220,7 +220,7 @@
                 height: 80px;
             }
 
-            @media all and (min-width: 1200px) {
+            @media all and (min-width: 1024px) {
                 grid-column: 5/6;
                 grid-row: 2/3;
                 height: 8.5vh;
@@ -238,7 +238,7 @@
                 height: 110px;
             }
 
-            @media all and (min-width: 1200px) {
+            @media all and (min-width: 1024px) {
                 grid-column: 6/7;
                 grid-row: 2/3;
                 height: 11.7vh;
