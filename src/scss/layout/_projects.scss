@@ -572,12 +572,11 @@
           right: 85%;
           top: 50%;
           color: #ffffff;
+          color: black;
           transform: translateY(-50%);
           padding: 20px 15px;
-          border-top: 2px solid #fdc84b;
-          border-right: 2px solid #fdc84b;
-          border-bottom: 2px solid #fdc84b;
-          border-left: 2px solid #fdc84b;
+          border-radius: 10px;
+          background-color:  #9A79B2;
           margin-right: -2px;
         }
         .slider-right {
@@ -587,12 +586,11 @@
           left: 85%;
           top: 50%;
           color: #ffffff;
+          color: black;
           transform: translateY(-50%);
           padding: 20px 15px;
-          border-top: 2px solid #fdc84b;
-          border-right: 2px solid #fdc84b;
-          border-bottom: 2px solid #fdc84b;
-          border-left: 2px solid #fdc84b;
+          border-radius: 10px;
+          background-color:  #9A79B2;
           margin-left: -2px;
         }
         .not-visible {
