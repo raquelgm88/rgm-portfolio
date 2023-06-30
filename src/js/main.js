@@ -228,3 +228,23 @@ function goToIndexSlide(index) {
 }
 
 slideInitial();
+
+//ANIMACIONES CON SCROLL
+
+// esta funcion comprueba si un elemento esta visible en pantalla
+function isVisible(elm) {
+  var rect = elm.getBoundingClientRect();
+  var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+  return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
+}
+
+// cuando se carga la página...
+window.addEventListener('DOMContentLoaded', (ev0) => {
+  window.addEventListener('scroll', (ev1) => {
+    document.querySelectorAll('.paused').forEach(elm => {
+      if (isVisible(elm)) {
+        elm.classList.remove('paused');
+      }
+    });
+  });
+});

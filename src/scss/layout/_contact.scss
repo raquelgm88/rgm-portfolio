@@ -92,6 +92,10 @@
     }
 }
 
+.fa-linkedin:hover {
+    transform: scale(0.8);
+}
+
 .fa-github {
     font-size: 40px;
     color: black;
@@ -101,6 +105,10 @@
     }
 }
 
+.fa-github:hover {
+    transform: scale(0.8);
+}
+
 .fa-envelope {
     font-size: 40px;
     color: #ed9775;
@@ -108,4 +116,8 @@
     @media all and (min-width: 768px) {
         font-size: 120px;
     }
+}
+
+.fa-envelope:hover {
+    transform: scale(0.8);
 }

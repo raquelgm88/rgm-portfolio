@@ -1,3 +1,7 @@
+.paused {
+    animation-play-state: paused;
+}
+
 .technologies {
     display: flex;
     flex-direction: column;
@@ -64,6 +68,20 @@
         column-gap: 50px;
         row-gap: 30px;
         margin: 45px 15px 45px 15px;
+        opacity: 0;
+        animation-duration: 3s;
+        animation-name: fadeIn;
+        animation-fill-mode: forwards;
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(150px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            }
 
         @media all and (min-width: 1024px) {
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -246,4 +264,5 @@
         }
     }
 }
+
 
