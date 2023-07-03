@@ -1,4 +1,4 @@
-![RGM Front-End Developer](https://raw.githubusercontent.com/raquelgm88/rgm-portfolio/main/src/images/RGMborde.png)
+![RGM Front-End Developer](/./assets/images/RGMborde.png)
 
 # MI PORTFOLIO
 
@@ -8,6 +8,7 @@ Va a estar en cambio constante según vaya haciendo proyectos nuevos, y según v
 Ha sido desarrollado bajo los principios de diseño responsive, usando el marco de trabajo "mobile first". Por lo que según se visualice en un dispositivo u otro, tiene diferentes funcionalidades y maquetación.
 
 ## HERRAMIENTAS Y TECNOLOGÍAS
+
 - HTML5
 - CSS3 (SCSS)
 - JavaScript
