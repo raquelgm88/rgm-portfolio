@@ -1,28 +1,24 @@
 .contact {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     width: 100vw;
     background-color: #f0f3f4;
 
     @media all and (min-width: 768px) {
-        height: 90vh;
         justify-content: flex-start;
+        height: 90vh;
     }
 
     &__h1 {
-        //font-family: "Georama", sans-serif;
+        margin-top: 30px;
+        margin-bottom: 50px;
         font-family: "Oxanium", sans-serif;
         font-size: 45px;
         font-weight: 700;
         text-align: center;
-        margin-top: 30px;
-        margin-bottom: 50px;
-        //color: #9a3a92;
-        color: white;
         color: black;
-        text-shadow: 1px 1px 2px black, 0 0 0.1em #9A79B2, 0 0 0.1em #9A79B2;
         text-shadow: 2px 1px 1px #9A79B2;
 
         @media all and (min-width: 768px) {
@@ -31,8 +27,8 @@
         }
 
         @media all and (min-width: 1024px) {
-            font-size: 7.5vh;
             margin-top: 100px;
+            font-size: 7.5vh;
         }
     }
 
@@ -41,18 +37,16 @@
 
         @media all and (min-width: 768px) {
             display: flex;
-            //font-family: "Georama", sans-serif;
+            width: 88vw;
             font-family: "Montserrat", sans-serif;
             font-size: 30px;
             text-align: center;
-            width: 88vw;
         }
 
         @media all and (min-width: 1024px) {
-            //font-size: 30px;
-            font-size: 3.2vh;
+            justify-content: center;
             margin-top: 30px;
-           justify-content: center;
+            font-size: 3.2vh;
         }
     }
 
@@ -71,12 +65,10 @@
 
         @media all and (min-width: 1000px) {
             flex-direction: row;
-            gap: 200px;
-            margin-top: 200px;
             margin-top: 20.5vh;
+            gap: 200px;
         }
-      
-
+        
         &_link {
             text-decoration: none;
         }

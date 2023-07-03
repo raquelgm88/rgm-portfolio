@@ -1,16 +1,15 @@
 .footer {
-    width: 100vw;
-    height: 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-   // background-color:  #9a3a92;
-   background-color: #9A79B2;
+    width: 100vw;
+    height: 80px;
+    background-color: #9A79B2;
 
     @media all and (min-width: 768px) {
-        font-size: 20px;
         height: 10vh;
+        font-size: 20px;
     }
     
     &__div {
@@ -19,19 +18,14 @@
         justify-content: center;
         align-items: flex-start;
         margin-left: 30px;
-        //font-family: "Georama", sans-serif;
-        font-family: "Oxanium", sans-serif;
-        font-family: "Poppins", sans-serif;
-        color:  white;
         width: auto;
         height: auto;
-     
+        font-family: "Poppins", sans-serif;
+        color:  white;
     }
 
     &__copy {
         margin-right: 30px;
-        //font-family: "Georama", sans-serif;
-        font-family: "Oxanium", sans-serif;
         font-family: "Poppins", sans-serif;
         color:  white;
     }
