@@ -1,4 +1,4 @@
-![RGM Front-End Developer](/./assets/images/RGMborde.png)
+![RGM Front-End Developer](https://raw.githubusercontent.com/raquelgm88/rgm-portfolio/main/src/images/RGMborde.png)
 
 # MI PORTFOLIO
 
