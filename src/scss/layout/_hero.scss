@@ -18,6 +18,13 @@
         background-position: center;
     }
     
+    &__logo {
+        height: 120px;
+       
+        @media all and (min-width: 768px) {
+            display: none;
+        }
+    }
 
     &__desc {
         display: flex;
