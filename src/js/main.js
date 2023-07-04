@@ -1,26 +1,22 @@
-
-
-console.log('>> Ready :)');
+// CAROUSEL
 
 const repeat = false;
 const noArrows = false;
 const noBullets = false;
-
-
 const container = document.querySelector('.js_projects__container');
-var slide = document.querySelectorAll('.js_projects__container_all-one');
-var slideTotal = slide.length - 1;
-var slideCurrent = -1;
+let slide = document.querySelectorAll('.js_projects__container_all-one');
+let slideTotal = slide.length - 1;
+let slideCurrent = -1;
 
 function initBullets() {
   if (noBullets) {
     return;
   }
   const bulletContainer = document.createElement('div');
-  bulletContainer.classList.add('bullet-container');
+  bulletContainer.classList.add('projects__container_bulletContainer');
   slide.forEach((elem, i) => {
     const bullet = document.createElement('div');
-    bullet.classList.add('bullet');
+    bullet.classList.add('projects__container_bulletContainer-bullet');
     bullet.id = `bullet-index-${i}`;
     bullet.addEventListener('click', () => {
       goToIndexSlide(i);
@@ -67,7 +63,7 @@ function slideInitial() {
 
 function updateBullet() {
   if (!noBullets) {
-    document.querySelector('.bullet-container').querySelectorAll('.bullet').forEach((elem, i) => {
+    document.querySelector('.projects__container_bulletContainer').querySelectorAll('.projects__container_bulletContainer-bullet').forEach((elem, i) => {
       elem.classList.remove('active');
       if (i === slideCurrent) {
         elem.classList.add('active');
@@ -229,16 +225,15 @@ function goToIndexSlide(index) {
 
 slideInitial();
 
-//ANIMACIONES CON SCROLL
+// SCROLL ANIMATIONS
 
-// esta funcion comprueba si un elemento esta visible en pantalla
 function isVisible(elm) {
   var rect = elm.getBoundingClientRect();
   var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
   return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
 }
 
-// cuando se carga la página...
+
 window.addEventListener('DOMContentLoaded', (ev0) => {
   window.addEventListener('scroll', (ev1) => {
     document.querySelectorAll('.paused').forEach(elm => {

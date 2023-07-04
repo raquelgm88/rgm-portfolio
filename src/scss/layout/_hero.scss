@@ -19,7 +19,18 @@
     
     &__logo {
         height: 120px;
-       
+        animation-duration: 2s;
+        animation-name: fadeIn;
+        animation-fill-mode: forwards;
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
         @media all and (min-width: 768px) {
             display: none;
         }
