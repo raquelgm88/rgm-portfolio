@@ -1,5 +1,3 @@
-![RGM Front-End Developer](https://raw.githubusercontent.com/raquelgm88/rgm-portfolio/main/src/images/RGMborde.png)
-
 # MI PORTFOLIO
 
 ¡Hola! Este es mi portfolio, donde muestro mis proyectos, las tecnologías y herramientas que utilizo, y cómo puedes contactar conmigo.
