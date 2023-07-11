@@ -21,6 +21,11 @@
         color: black;
         text-shadow: 2px 1px 1px #9A79B2;
 
+        @media (orientation: landscape) {
+            margin-top: 20px;
+            font-size: 45px;
+        }
+
         @media all and (min-width: 768px) {
            margin-top: 120px;
            font-size: 60px;
@@ -55,6 +60,12 @@
         flex-direction: row;
         gap: 40px;
         margin-bottom: 40px;
+
+        @media (orientation: landscape) {
+            flex-direction: row;
+            margin-top: 20.5vh;
+            gap: 200px;
+          }
 
         @media all and (min-width: 768px) {
             flex-direction: column;

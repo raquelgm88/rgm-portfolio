@@ -31,10 +31,6 @@
             }
         }
 
-        @media (orientation: landscape) {
-            height: 80px;
-        }
-
         @media all and (min-width: 768px) {
             display: none;
         }
@@ -48,13 +44,6 @@
         width: 70%;
         height: 100%;
         font-family: "Poppins", sans-serif;
-
-        @media (orientation: landscape) {
-            align-self: flex-start;
-            margin-left: 30px;
-            margin-bottom: 30px;
-            width: 45%;
-        }
 
         @media all and (min-width: 1024px) {
             justify-content: flex-start;
@@ -84,10 +73,6 @@
                 }
             }
 
-            @media (orientation: landscape) {
-                font-size: 35px;
-            }
-
             @media all and (min-width: 768px) {
                 font-size: 80px;
             }
@@ -114,10 +99,6 @@
                  to {
                    opacity: 1;
                  }
-            }
-
-            @media (orientation: landscape) {
-                font-size: 22px;
             }
             
             @media all and (min-width: 768px) {
@@ -148,11 +129,6 @@
                 to {
                 opacity: 1;
                 }
-            }
-
-            @media (orientation: landscape) {
-                margin-top: 20px;
-                font-size: 15px;
             }
 
             @media all and (min-width: 768px) {
@@ -193,14 +169,6 @@
                     to {
                         opacity: 1;
                     }
-                }
-        
-                @media (orientation: landscape) {
-                    margin-top: 20px;
-                    padding: 2px;
-                    width: 130px;
-                    line-height: 15px;
-                    font-size: 12px;
                 }
         
                 @media all and (min-width: 768px) {

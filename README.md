@@ -5,6 +5,8 @@ Va a estar en cambio constante según vaya haciendo proyectos nuevos, y según v
 
 Ha sido desarrollado bajo los principios de diseño responsive, usando el marco de trabajo "mobile first". Por lo que según se visualice en un dispositivo u otro, tiene diferentes funcionalidades y maquetación.
 
+> Nota: aún estoy trabajando en las mediaqueries para que se visualice bien desde cualquier dispositivo y orientación de la pantalla.
+
 ## HERRAMIENTAS Y TECNOLOGÍAS
 
 - HTML5
