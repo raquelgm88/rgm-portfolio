@@ -8,8 +8,10 @@
 @import 'layout/footer';
 @import 'pages/index';
 
+
 .main {
     width: 100vw;
+
 }
 
 .line {
@@ -20,4 +22,10 @@
 }
 :root {
     scroll-behavior: smooth;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+:root::-webkit-scrollbar {
+    width: 0;
 }
