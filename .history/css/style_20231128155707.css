@@ -2468,15 +2468,12 @@ h6 {
     .brand_area {
       padding-bottom: 80px; } }
 
-.tech {
-  margin-top: 250px;
-}
-
 /* End Barand Area css
 ============================================================================================ */
 /* Start Features Area css
 ============================================================================================ */
 .features_area {
+  margin-top: 200px;
   padding-bottom: 170px; }
   @media (max-width: 1199px) {
     .features_area {
