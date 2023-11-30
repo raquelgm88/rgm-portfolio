@@ -2683,11 +2683,9 @@ h6 {
     -moz-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s; }
-    .single_portfolio .icon span .btn-project {
+    .single_portfolio .icon span {
       font-size: 100px;
       display: inline-block;
-      display: flex;
-      flex-direction: row;
       /* -webkit-transform: rotate(135deg);
       -moz-transform: rotate(135deg);
       -ms-transform: rotate(135deg);
@@ -2700,9 +2698,8 @@ h6 {
   .single_portfolio:hover .icon {
     opacity: 1;
     visibility: visible;
-    /* top: 50%; */
-    /* left: 50%; */
-  }
+    top: 50%;
+    left: 50%; }
 
 .portfolio_details_inner .row {
   margin-bottom: 65px; }
@@ -2737,29 +2734,12 @@ h6 {
       margin-bottom: 0px; }
     .portfolio_details_inner .portfolio_right_text .list li i {
       color: #f1cd09; }
-  
-  .btn-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  
-  .icon {
-    display: flex;
-    /* justify-content: center;
-    align-items: center; */
 
-    .btn-project {
-      width: 70px;
-      height: 28px;
-      background-color: white;
-      border-radius: 2px;
-      font-size: 20px;
-      color: black;
-      text-align: center;
-    }
-  }    
-  
+  .btn-project {
+    width: 70px;
+    height: 35px;
+    background-color: black;
+  }
 /* End Portfolio Area css
 ============================================================================================ */
 /* Start Testimonial Area css

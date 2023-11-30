@@ -2738,12 +2738,6 @@ h6 {
     .portfolio_details_inner .portfolio_right_text .list li i {
       color: #f1cd09; }
   
-  .btn-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  
   .icon {
     display: flex;
     /* justify-content: center;

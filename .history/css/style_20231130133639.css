@@ -2668,7 +2668,7 @@ h6 {
     -moz-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s; }
-  .single_portfolio .icon {
+  .single_portfolio .icon .btn-container {
     position: absolute;
     top: 25%;
     left: 25%;
@@ -2737,12 +2737,6 @@ h6 {
       margin-bottom: 0px; }
     .portfolio_details_inner .portfolio_right_text .list li i {
       color: #f1cd09; }
-  
-  .btn-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
   
   .icon {
     display: flex;
