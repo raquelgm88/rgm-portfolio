@@ -2683,7 +2683,7 @@ h6 {
     -moz-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s; }
-    .single_portfolio .icon span {
+    .single_portfolio .icon span .btn-project {
       font-size: 100px;
       display: inline-block;
       -webkit-transform: rotate(135deg);
@@ -2699,7 +2699,8 @@ h6 {
     opacity: 1;
     visibility: visible;
     top: 50%;
-    left: 50%; }
+    left: 50%;
+  }
 
 .portfolio_details_inner .row {
   margin-bottom: 65px; }
@@ -2734,7 +2735,6 @@ h6 {
       margin-bottom: 0px; }
     .portfolio_details_inner .portfolio_right_text .list li i {
       color: #f1cd09; }
-
 
 
   
